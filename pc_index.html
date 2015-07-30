@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas 游戏</title>
+	<link rel="stylesheet" href="css/neat.css"/>
+	<link rel="stylesheet" href="css/defaultpc.css"/>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<div id="showData">
+
+			</div>
+		</div>
+
+		<div class="right">
+			<div class="next_com">
+				<h2 class="title">下一个</h2>
+				<canvas id="nextCom" width="150" height="150">
+					该浏览器不支持canvas标签，请更新浏览器！
+				</canvas>
+			</div>
+			<div class="level">
+				<h2>当前等级</h2>
+				<h3 id="showLevel">1</h3>
+			</div>
+			<div class="scored">
+				<h2>所得分数</h2>
+				<h3 id="showScore"></h3>
+			</div>
+		</div>
+		
+		<div class="center">
+			<canvas id="main" width="325" height="500">
+				该浏览器不支持canvas标签，请更新浏览器！
+			</canvas>
+		</div>
+	</div>
+	
+
+	<script src="framework/jquery.js"></script>
+	<script src="framework/jcanvas.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>hello world</title>
+    <link rel="stylesheet" href="css/neat.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>-->
+	<link rel="stylesheet" href="css/modified.css"/>
+</head>
+<body> "
+	<div class="container">
+		<div class="left">
+			<div id="showData"></div>
+		</div>
+<div class="center">
+			<canvas id="main">
+				该浏览器不支持canvas标签，请更新浏览器！
+			</canvas>
+		</div>
+
+		<div class="right">
+			<div class="next_com">
+				<p class="title">下一个</p>
+				<canvas id="nextCom">
+					该浏览器不支持canvas标签，请更新浏览器！
+				</canvas>
+			</div>
+			<div class="level">
+				<p>当前等级</p>
+				<h3 id="showLevel">1</h3>
+			</div>
+			<div class="scored">
+				<p>所得分数</p>
+				<h3 id="showScore">0</h3>
+			</div>
+			<div class="ctrl">
+				<button id="stop" class="button">开始</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="framework/jquery.js"></script>
+	<script src="framework/jcanvas.js"></script>
+	<script src="framework/zepto.min.js"></script>
+	<script src="framework/touch.js"></script>
+	<script src="js/modified.js"></script>
+</body>
+</html>
